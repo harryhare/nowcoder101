@@ -12,6 +12,7 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
+#include <stack>
 #include <map>
 #include <string>
 using namespace std;
