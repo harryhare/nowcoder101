@@ -14,11 +14,27 @@ public:
     int longestValidParentheses(string s) {
         stack<int> a;
         int n = s.size();
-        int max=0;
+        int m=0;
+        int c=0;
         for (int i = 0; i < n; i++) {
+            if(s[i]==')'){
+                if(a.empty()){
+                    c=0;
+                    continue;
+                }
+                c++;
+                c+=a.top();
+                a.pop();
+                if(c>=m){
+                    m=c;
+                }
+            }else{
+                a.push(c);
+                c=0;
+            }
 
         }
-        return max;
+        return m*2;
     }
 //    int longestValidParentheses(string s) {
 //        // write code here
