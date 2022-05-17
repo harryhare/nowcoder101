@@ -9,5 +9,8 @@ add_executable(76 76.cpp)
 add_executable(77 77.cpp)
 add_executable(78 78.cpp)
 add_executable(79 79.cpp)
+add_executable(80 80.cpp)
+add_executable(81 81.cpp)
+add_executable(82 82.cpp)
 
 
