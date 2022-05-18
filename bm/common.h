@@ -15,5 +15,6 @@
 #include <stack>
 #include <map>
 #include <string>
+#include <regex>
 using namespace std;
 #endif //NOWCODER101_COMMON_H
