@@ -1,4 +1,7 @@
 
+add_executable(01 01.cpp)
+add_executable(04 04.cpp)
+add_executable(06 06.cpp)
 add_executable(62 62.cpp)
 add_executable(64 64.cpp)
 add_executable(65 65.cpp)
